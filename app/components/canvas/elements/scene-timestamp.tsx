@@ -13,7 +13,7 @@ export function SceneTimestamp({
 			<span className="text-muted-foreground">
 				{formatTimeRange(start, duration)}
 			</span>
-			<Badge variant="muted" size="inline" className="text-badge leading-4.5">
+			<Badge variant="muted" size="inlineSm">
 				{formatRangeDuration(start, duration)}
 			</Badge>
 		</span>
